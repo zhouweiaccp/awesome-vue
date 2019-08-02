@@ -40,6 +40,7 @@
     - [Parallax](#parallax)
     - [Icons](#icons)
     - [Menu](#menu)
+    - [mvvm](#mvvm)
     - [Minus Plus Input](#minus-plus-input)
     - [Carousel](#carousel)
     - [Charts](#charts)
@@ -1150,6 +1151,15 @@ Tooltips / popovers
  - [v-selectmenu](https://github.com/TerryZ/v-selectmenu) - A simple, easier and highly customized menu solution for Vue2.
  - [vue-burger-menu](https://github.com/mbj36/vue-burger-menu) - An off-canvas sidebar Menu component with different CSS animations.
  - [vue-dynamic-dropdown](https://github.com/JonathanDn/vue-dropdown) - A Highly Customizable, easy-to-use elegant dropdown component
+
+### mvvm
+
+ - [MVVM](https://github.com/fastCreator/MVVM) vue 源码解析及实现
+ - [snabbdom](https://github.com/snabbdom/snabbdom)  A virtual DOM library with focus on simplicity, modularity, powerful features and performance.
+ - []() 
+ - []() 
+
+
 
 ### Minus Plus Input
 
