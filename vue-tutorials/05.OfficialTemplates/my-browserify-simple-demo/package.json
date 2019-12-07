@@ -4,6 +4,8 @@
   "author": "keepfool <crmug@outlook.com>",
   "private": true,
   "scripts": {
+    "start": "NODE_ENV=production PORT=8080 babel-node ./bin/www",
+    "dev1": "nodemon --inspect --exec babel-node --presets env ./bin/www",
     "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/build.js",
     "serve": "http-server -c 1 -a localhost",
     "dev": "npm-run-all --parallel watchify serve",

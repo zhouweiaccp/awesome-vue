@@ -83,6 +83,7 @@
     - [Link Preview](#link-preview)
     - [Tour](#tour)
   - [UI Layout](#ui-layout)
+  - [UI](#ui)
   - [Frameworks](#frameworks)
     - [Responsive](#responsive)
     - [Mobile](#mobile)
@@ -1740,7 +1741,29 @@ Tooltips / popovers
 - [vue-tour](https://github.com/pulsardev/vue-tour) - Lightweight and customizable tour plugin
 - [vue-page-guide](https://github.com/sschandi/vue-page-guide) - Page tour / guide plugin with directive
 
-
+## UI
+Choose your favorite UI framework:
+    - None (feel free to add one later)
+    - [Ant Design Vue](https://github.com/vueComponent/ant-design-vue)
+    - [Bootstrap](https://github.com/bootstrap-vue/bootstrap-vue)
+    - [Buefy](https://buefy.github.io)
+    - [Bulma](https://github.com/jgthms/bulma)
+    - [Element](https://github.com/ElemeFE/element)
+    - [Framevuerk](https://github.com/framevuerk/framevuerk)
+    - [iView](https://www.iviewui.com/)
+    - [Tachyons](https://github.com/tachyons-css/tachyons)
+    - [Tailwind CSS](https://github.com/tailwindcss/tailwindcss)
+    - [Vuetify](https://github.com/vuetifyjs/vuetify)
+1. Choose between integrated server-side frameworks:
+    - None (Nuxt default server)
+    - [Adonis](https://github.com/adonisjs/adonis-framework)
+    - [Express](https://github.com/expressjs/express)
+    - [Fastify](https://github.com/fastify/fastify)
+    - [Feathers](https://github.com/feathersjs/feathers)
+    - [Hapi](https://github.com/hapijs/hapi)
+    - [Koa](https://github.com/koajs/koa)
+    - [Micro](https://github.com/zeit/micro)
+    
 ## UI Layout
 
 *Layout for the overall / main view*
