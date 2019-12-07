@@ -1,0 +1,33 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  //https://github.com/Microsoft/vscode-recipes/tree/master/vuejs-cli
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [{
+      "type": "node",
+      "request": "launch",
+      "name": "Launch via NPM",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run-script",
+        "build"
+      ],
+      "port": 9229
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "http://localhost:8081",
+      "webRoot": "${workspaceFolder}",
+      "breakOnLoad": true,
+      "sourceMapPathOverrides": {
+        "webpack:///./src/*": "${webRoot}/*",
+        "webpack:///src/*": "${webRoot}/*",
+        "webpack:///*": "*",
+        "webpack:///./~/*": "${webRoot}/node_modules/*"
+      }
+    }
+  ]
+}

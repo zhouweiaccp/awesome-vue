@@ -702,4 +702,9 @@ github地址：https://github.com/MeCKodo/vue-tutorial
 > Have a nice day
 
 
+##  调试方法
+1 npm run dev
+2 浏览器f12   sources  里面可以调试代码 [Vue.js debugging in Chrome and VS Code](https://github.com/Microsoft/vscode-recipes/tree/master/vuejs-cli) 
+
+
 
