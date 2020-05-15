@@ -14,5 +14,7 @@ babel --version
 mkdir es6
 cd es6
 npm init
-npm install --save-dev babel-preset-eslatest-node6
+npm install --save-dev babel-preset-es2015 babel-cli   #npm install --save-dev babel-preset-eslatest-node6
 babel lib -d build\lib
+ babel src/index.js -o dist/index.js
+ npm run build
