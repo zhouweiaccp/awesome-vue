@@ -1,4 +1,5 @@
 ﻿es6/node_modules/*
+es6/dist/*
 *.tmp
 *.log
 *.vspscc
