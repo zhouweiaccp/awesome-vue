@@ -5,7 +5,7 @@ es6/dist/*
 *.vspscc
 *.vssscc
 .builds
-
+package-lock.json
 # Visual C++ cache files
 ipch/
 *.aps

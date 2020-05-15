@@ -6,6 +6,13 @@ vue-tutorial-next vue2.0版本说明 https://github.com/MeCKodo/vue-tutorial
 vue2 https://github.com/sunseekers/Vue2 
 https://github.com/bhnddowinf/vuejs-learn  vue2.0 示例
 
+## 目录说明
+vue-tutorials  vue1.0
+vue2  vue2.0讲解，不是很全
+es6 demo
+es6tutorial-gh-pages  语法说明
+https://github.com/qianyinghuanmie/vue2.0-demos  一套
+
 
 
 ## es6开发环境
