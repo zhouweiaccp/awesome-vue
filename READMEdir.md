@@ -30,3 +30,6 @@ babel lib -d build\lib
  ## linux vue install
  npm install -g vue-cli
  sudo ln -s /usr/local/lib/nodejs/node-v10.16.0-linux-x64/lib/node_modules/vue-cli/bin/vue /usr/local/bin/
+
+ ## 浏览器支持es6
+ -[compat-table](http://kangax.github.io/compat-table/es6/)
