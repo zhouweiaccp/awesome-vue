@@ -25,3 +25,8 @@ npm install --save-dev babel-preset-es2015 babel-cli   #npm install --save-dev b
 babel lib -d build\lib
  babel src/index.js -o dist/index.js
  npm run build
+
+
+ ## linux vue install
+ npm install -g vue-cli
+ sudo ln -s /usr/local/lib/nodejs/node-v10.16.0-linux-x64/lib/node_modules/vue-cli/bin/vue /usr/local/bin/
