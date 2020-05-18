@@ -33,3 +33,7 @@ babel lib -d build\lib
 
  ## 浏览器支持es6
  -[compat-table](http://kangax.github.io/compat-table/es6/)
+
+
+ ##　 进行数字签名。无法在当前系统上运行该脚本。有关运行脚本和设置执行策略 的详细信息
+ set-executionpolicy remotesigned
