@@ -33,6 +33,12 @@ babel lib -d build\lib
 
  ## 浏览器支持es6
  -[compat-table](http://kangax.github.io/compat-table/es6/)
+ [es6-promise](https://.github.com/jakearchibald/es6-promise)一个兼容 ES6 Promises 的Polyfill类库。 它基于 RSVP.js 这个兼容 Promises/A+ 的类库， 它只是 RSVP.js 的一个子集，只实现了Promises 规定的 API。
+
+作者：microkof
+链接：https://www.jianshu.com/p/b497eab58ed7
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 
  ##　 进行数字签名。无法在当前系统上运行该脚本。有关运行脚本和设置执行策略 的详细信息
