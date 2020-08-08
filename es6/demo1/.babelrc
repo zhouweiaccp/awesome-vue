@@ -1,0 +1,15 @@
+{ "presets": ["es2015"],
+    "env":{
+        "modules": false,
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+        },
+        // 是否自动引入polyfill，开启此选项必须保证已经安装了babel-polyfill
+        // 在这里设置自动引入后，babel会根据你配置的兼容的环境，去按需加载polyfill的代码，这样能保证代码量最少
+        // 参数：Boolean，默认为false.
+        "useBuiltIns": false
+    },
+    // ，比如我要使用es6的箭头函数  plugin-transform-arrow-functions
+    // 个插件，通过重复使用babel注入的助手（helper）代码，来减少代码体积，我们看看它是如何工作的。plugin-transform-runtime
+    "plugins": [ "@babel/plugin-transform-runtime","@babel/plugin-transform-arrow-functions" ]
+}
