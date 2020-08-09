@@ -5,7 +5,7 @@
   "author": "kodo <524580860@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "dev": "node --inspect-brk=9229  build/dev-server.js",
     "build": "node --inspect-brk=9229 build/build.js"
   },
   "dependencies": {
