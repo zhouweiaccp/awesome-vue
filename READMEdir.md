@@ -48,3 +48,4 @@ babel lib -d build\lib
  ##  html5
  -[ningbonb/HTML5)](https://github.com/ningbonb/HTML5)  html5 css3 javascript canvas 示例比较全
  -[30-seconds-of-css](https://github.com/30-seconds/30-seconds-of-css)  很多语言示例片断 比较经典
+ - [Webpack 4 和单页应用入门](https://github.com/wallstreetcn/webpack-and-spa-guide)
