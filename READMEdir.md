@@ -56,3 +56,21 @@ babel lib -d build\lib
  -[]()
  -[]()
  -[]()
+
+
+ ## vscode 调试vue
+ https://cn.vuejs.org/v2/cookbook/debugging-in-vscode.html
+.vscode/launch.json
+  {
+      "type": "chrome",
+      "request": "launch",
+      "name": "vuejs: chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}/src",
+      "breakOnLoad": true,
+      "sourceMapPathOverrides": {
+        "webpack:///src/*": "${webRoot}/*"
+      }
+1. npm run dev 
+2.设断点
+3.chrome也设置就可以了
