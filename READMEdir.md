@@ -48,6 +48,11 @@ babel lib -d build\lib
  set-executionpolicy remotesigned
 
 
+## npm 用法
+npm view jquery versions  查看所有版本
+npm i jquery@1.8
+npm info jquery  这种方式和第一种类似，也可以查看jquery所有的版本
+
  ##  html5
  -[ningbonb/HTML5)](https://github.com/ningbonb/HTML5)  html5 css3 javascript canvas 示例比较全
  -[30-seconds-of-css](https://github.com/30-seconds/30-seconds-of-css)  很多语言示例片断 比较经典
