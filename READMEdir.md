@@ -53,6 +53,11 @@ npm view jquery versions  查看所有版本
 npm i jquery@1.8
 npm info jquery  这种方式和第一种类似，也可以查看jquery所有的版本
 
+
+
+## NODE_ENV' 不是内部或外部命令，也不是可运行的程序 或批处理文件
+npm install cross-env –save-dev
+再在NODE_ENV=xxxxxxx前面添加cross-env
  ##  html5
  -[ningbonb/HTML5)](https://github.com/ningbonb/HTML5)  html5 css3 javascript canvas 示例比较全
  -[30-seconds-of-css](https://github.com/30-seconds/30-seconds-of-css)  很多语言示例片断 比较经典
