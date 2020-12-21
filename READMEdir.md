@@ -34,17 +34,30 @@ babel lib -d build\lib
  ## 浏览器支持es6
  -[compat-table](http://kangax.github.io/compat-table/es6/)
  [es6-promise](https://.github.com/jakearchibald/es6-promise)一个兼容 ES6 Promises 的Polyfill类库。 它基于 RSVP.js 这个兼容 Promises/A+ 的类库， 它只是 RSVP.js 的一个子集，只实现了Promises 规定的 API。
-
-作者：microkof
-链接：https://www.jianshu.com/p/b497eab58ed7
-来源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
+- [](https://vuetifyjs.com/zh-Hans/getting-started/browser-support/#webpack)
+- [ie引用示例](https://github.com/herbat73/GenVue/blob/master/ClientApp/index.html)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 
  ##　 进行数字签名。无法在当前系统上运行该脚本。有关运行脚本和设置执行策略 的详细信息
  set-executionpolicy remotesigned
 
 
+## npm 用法
+npm view jquery versions  查看所有版本
+npm i jquery@1.8
+npm info jquery  这种方式和第一种类似，也可以查看jquery所有的版本
+
+
+
+## NODE_ENV' 不是内部或外部命令，也不是可运行的程序 或批处理文件
+npm install cross-env –save-dev
+再在NODE_ENV=xxxxxxx前面添加cross-env
  ##  html5
  -[ningbonb/HTML5)](https://github.com/ningbonb/HTML5)  html5 css3 javascript canvas 示例比较全
  -[30-seconds-of-css](https://github.com/30-seconds/30-seconds-of-css)  很多语言示例片断 比较经典
@@ -56,3 +69,21 @@ babel lib -d build\lib
  -[](https://juejin.im/post/6844903517564436493)手摸手，带你优雅的使用 icon
  -[]()
  -[]()
+
+
+ ## vscode 调试vue
+ https://cn.vuejs.org/v2/cookbook/debugging-in-vscode.html
+.vscode/launch.json
+  {
+      "type": "chrome",
+      "request": "launch",
+      "name": "vuejs: chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}/src",
+      "breakOnLoad": true,
+      "sourceMapPathOverrides": {
+        "webpack:///src/*": "${webRoot}/*"
+      }
+1. npm run dev 
+2.设断点
+3.chrome也设置就可以了
