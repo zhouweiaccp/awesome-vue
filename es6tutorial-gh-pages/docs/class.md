@@ -780,6 +780,7 @@ export default class myClass{
 上面代码中，`bar`和`snaf`都是`Symbol`值，一般情况下无法获取到它们，因此达到了私有方法和私有属性的效果。但是也不是绝对不行，`Reflect.ownKeys()`依然可以拿到它们。
 
 ```javascript
+//Reflect.ownKeys
 const inst = new myClass();
 
 Reflect.ownKeys(myClass.prototype)

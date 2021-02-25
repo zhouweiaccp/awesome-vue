@@ -87,3 +87,27 @@ npm install cross-env –save-dev
 1. npm run dev 
 2.设断点
 3.chrome也设置就可以了
+
+
+## ES6 数组some()和every()使用
+every:一假即假: some:一真即真 
+```javascript
+/** 
+ * 计算对象数组中每个电脑的扣件系统是否可用,大于16位操作系统表示可用,否则不可用
+*/
+var computers = [
+    {name:"Apple",ram:8},
+    {name:"IBM",ram:4},
+    {name:"Acer",ram:32},
+];
+ var result= computers.every(function(computer){
+   return computer.ram > 16
+})
+console.log(result)//false;
+var some = computers.some(function(computer){
+   return computer.ram > 16
+})
+console.log(some)//true
+// ————————————————
+// 原文链接：https://blog.csdn.net/qq_40190624/article/details/82533610
+```
