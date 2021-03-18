@@ -66,7 +66,7 @@ npm install cross-env –save-dev
 
  ## link
  -[ddBuy](https://github.com/Geek-James/ddBuy)移动端开源电商项目，它基于 vue 2.x 和 vant 2.x实现。使用了最新的Vue全家桶技术栈，以及一些优秀的开源库如better-scroll、 moment.js、twix.js、pubsub-js,后台数据通过Easy-Mock搭建。支持多语言国际化,相信不管你是处于哪个段位的攻城狮，本项目都能帮助到你
- -[]()
+ -[](https://juejin.im/post/6844903517564436493)手摸手，带你优雅的使用 icon
  -[]()
  -[]()
 
@@ -92,3 +92,25 @@ npm install cross-env –save-dev
 ## iview作者开发手记
 -[2016我的心路历程：从 Vue 到 Webpack 到 iView | 掘金技术征文](https://juejin.cn/post/6844903461306236942)
 - [Vue+Webpack开发可复用的单页面富应用教程（配置篇）](https://github.com/icarusion/vue-vueRouter-webpack)
+## ES6 数组some()和every()使用
+every:一假即假: some:一真即真 
+```javascript
+/** 
+ * 计算对象数组中每个电脑的扣件系统是否可用,大于16位操作系统表示可用,否则不可用
+*/
+var computers = [
+    {name:"Apple",ram:8},
+    {name:"IBM",ram:4},
+    {name:"Acer",ram:32},
+];
+ var result= computers.every(function(computer){
+   return computer.ram > 16
+})
+console.log(result)//false;
+var some = computers.some(function(computer){
+   return computer.ram > 16
+})
+console.log(some)//true
+// ————————————————
+// 原文链接：https://blog.csdn.net/qq_40190624/article/details/82533610
+```
