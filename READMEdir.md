@@ -87,3 +87,8 @@ npm install cross-env –save-dev
 1. npm run dev 
 2.设断点
 3.chrome也设置就可以了
+
+
+## iview作者开发手记
+-[2016我的心路历程：从 Vue 到 Webpack 到 iView | 掘金技术征文](https://juejin.cn/post/6844903461306236942)
+- [Vue+Webpack开发可复用的单页面富应用教程（配置篇）](https://github.com/icarusion/vue-vueRouter-webpack)
