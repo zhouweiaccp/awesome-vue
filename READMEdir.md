@@ -114,3 +114,13 @@ console.log(some)//true
 // ————————————————
 // 原文链接：https://blog.csdn.net/qq_40190624/article/details/82533610
 ```
+
+
+## v-cloak渲染页面完后去掉
+```html
+<style>
+[v-cloak]{display:none}
+</style>
+<div v-cloak id="app"><p>{{msg}}</p>
+
+```
