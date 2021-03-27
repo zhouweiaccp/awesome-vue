@@ -124,3 +124,6 @@ console.log(some)//true
 <div v-cloak id="app"><p>{{msg}}</p>
 
 ```
+
+## 多页面
+https://github.com/JaneSu/multiple-vue-page
